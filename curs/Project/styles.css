@@ -1,0 +1,50 @@
+body{
+background-color: rgb(26, 25, 25);
+color: azure;
+background:url("5316948631329903684.jpg") center/cover;
+font-family:Arial;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.box{
+background: rgba(0, 0, 0, 0.7);
+backdrop-filter: blur(10px);
+padding:30px;
+border-radius:10px;
+width:250px;
+text-align:center;
+font-family: serif;
+}
+
+input{
+width:100%;
+padding:8px;
+margin:5px 0;
+border-radius: 5px;
+font-family: serif;
+background: rgba(0, 0, 0, 0.7);
+backdrop-filter: blur(10px);
+color: azure;
+border: none;
+}
+
+
+button{
+width:80%;
+padding:5px;
+margin-top:5px;
+cursor:pointer;
+border-radius: 20px;
+background: #1f02fa;
+color: rgb(243, 240, 240);
+font-family: serif;
+font-size: larger;
+transition: 0.3s;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}
