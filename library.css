@@ -1,0 +1,213 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Screenshot 2026-04-20 152444.png");
+    background-size: cover;
+    background-position: center;
+    color: azure;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    height: 70px;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.swerwes { font-size: xx-large; }
+
+.head {
+    margin: 30px;
+    color: azure;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 15px rgba(255,255,255,0.7);
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    margin-left: 60px;
+    padding: 30px;
+}
+
+.nav a {
+    color: white;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: hsl(199,99%,50%);
+    transform: translateY(-5px);
+}
+
+input {
+    width: 500px;
+    font-size: x-large;
+    margin-left: 40px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    background: #1a1a1a;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+.imgLogo {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px 80px;
+    transition: 0.3s;
+}
+
+.imgLogo:hover { transform: translateY(-5px); }
+
+.glavnoe{
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+
+}
+
+.text-up{
+    font-size: x-large;
+}
+
+.mylibrary{
+    padding-left: 20px;
+}
+
+
+.library-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.library-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.library-grid::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+.game-card {
+    position: relative;
+    background: rgba(20, 25, 35, 0.9);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.game-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.9);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.game-card:hover .overlay {
+    opacity: 1;
+}
+
+.game-card img {
+    height: 180px;
+    border-radius: 0;
+}
+
+.game-card:hover img {
+    filter: brightness(0.8);
+}
+
+.game-card h3 {
+    margin: 10px 0;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.remove-btn {
+    background: rgba(85, 119, 255, 0.7);
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.remove-btn:hover{
+    transform: translateY(-5px);
+}
+
+.status {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: green;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+
+.libraryr{
+    font-size: x-large;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.play-btn {
+    background: #460cf3;
+    transition: 0.3s;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.play-btn:hover{
+    transform: translateY(-5px);
+     background: #8e95f6;
+}
+
+
+
+.remove-btn:hover {
+    background: #e40d1b;
+}
+
+
+
